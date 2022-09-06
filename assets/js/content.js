@@ -57,7 +57,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'heydays.png',
-        link: 'http://heydaystheshow.com',
+        link: 'https://www.johngoodman.io/brouhaha-prospect-park/',
         caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production.",
       }),
       new Block ({
