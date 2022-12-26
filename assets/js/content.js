@@ -53,11 +53,11 @@ var contentList = [
     tags: ['animation'],
     body: [
       new Block ({
-        text: "This one's a website I made for an upcoming production by the <a href='http://www.brouhahatheatreproject.org'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background."
+        text: "This one's a website I made for an upcoming production by the <a href='https://j-goodman.github.io/brouhaha-prospect-park/'>Brouhaha Theatre Project</a>, who I've been involved with for their past two productions as a performer. It uses a custom-programmed parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background."
       }),
       new Picture ({
         filename: 'heydays.png',
-        link: 'https://www.johngoodman.io/brouhaha-prospect-park/',
+        link: 'https://j-goodman.github.io/brouhaha-prospect-park/',
         caption: "Promotional website that I designed and illustrated for an upcoming immersive theater production.",
       }),
       new Block ({
@@ -73,7 +73,7 @@ var contentList = [
     body: [
       new Picture ({
         filename: 'parking-lot.png',
-        link: 'http://www.johngoodman.io/art',
+        link: 'https://j-goodman.github.io/art',
         caption: "A selection of digital illustration and animation samples, as well as the first two pages of a new work-in-progress graphic novel.",
       }),
     ]
@@ -89,11 +89,11 @@ var contentList = [
       }),
       new Picture ({
         filename: 'action-president.png',
-        link: 'https://www.johngoodman.io/action-president/',
+        link: 'https://j-goodman.github.io/action-president/',
         caption: "A digital comic built on a custom piece of software I invented for reading animated comics on a mobile device.",
       }),
       new Block ({
-        text: "I tried especially with this one to try to find and take advantage of the things this new animation style offers that wouldn’t be available in traditional comics or animation. Take a look at <a href='https://www.johngoodman.io/action-president/'>https://www.johngoodman.io/action-president/</a>."
+        text: "I tried especially with this one to try to find and take advantage of the things this new animation style offers that wouldn’t be available in traditional comics or animation. Take a look at <a href='https://j-goodman.github.io/action-president/'>https://j-goodman.github.io/action-president/</a>."
       }),
       // text: "My current project, using the technology I developed this past summer for writing and reading a new type of animated digital comic. It's designed to be read on a mobile device, but works fine on desktop too. Still working on it but I figured in the spirit of open-source development I'd make the work in progress public; here it is. Go ahead and mentally tack on a 'To be continued' to the end."
       // text: "I’m trying especially with this one to try to find and take advantage of the things this new medium offers that wouldn’t be available in traditional comics or animation. For instance the characters can communicate with gestures a lot more effectively than in a traditional comic, and can shift seamlessly from one location to another without an abrupt cut — as in the panel where the space station looming in the distance grows until it dominates the frame. These kinds of things can be approximated in comics, but not as concisely or effectively as with animation. Then over traditional animation the main advantage is being able to include text as dialogue and background information, as well as other finer details that would frustrate a viewer of an animated video with the need to keep pausing."
@@ -111,7 +111,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'robotopia.png',
-        link: 'http://www.johngoodman.io/robotopia/',
+        link: 'https://j-goodman.github.io/robotopia/',
         caption: "Resource based strategy game.",
       }),
     ]
@@ -139,11 +139,11 @@ var contentList = [
     tags: ['animation'],
     body: [
       new Block ({
-        text: "This was something I’d wanted to build out the technology for for a while, but was waiting on a good story idea to preview it with. The idea is basically a medium that blends aspects of comics and animation, designed to be read on a phone screen. Each panel consists of a short animated sequence of frames, with the frame rate controlled by the rate at which the user scrolls down the page. To get a better sense of it, check out this preview, or my current work in progress, <a href='http://www.johngoodman.io/action-president/'> a short comic called Action President</a>."
+        text: "This was something I’d wanted to build out the technology for for a while, but was waiting on a good story idea to preview it with. The idea is basically a medium that blends aspects of comics and animation, designed to be read on a phone screen. Each panel consists of a short animated sequence of frames, with the frame rate controlled by the rate at which the user scrolls down the page. To get a better sense of it, check out this preview, or my current work in progress, <a href='https://j-goodman.github.io/action-president/'> a short comic called Action President</a>."
       }),
       new Picture ({
         filename: 'deeps.png',
-        link: 'http://www.johngoodman.io/animated-comic-preview',
+        link: 'https://j-goodman.github.io/animated-comic-preview',
         caption: "Preview of a digital format that blends comics and traditional animation. Best viewed on mobile device.",
       }),
       new Block ({
@@ -162,7 +162,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'arcos.png',
-        link: 'http://www.johngoodman.io/arcos',
+        link: 'https://j-goodman.github.io/arcos',
         caption: "Hand-illustrated original card game played against a simple machine-learning AI. <a href='./arcos-images.html'>Click here to see just the images</a>.",
       }),
       new Block ({
@@ -181,7 +181,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'hades.png',
-        link: 'http://www.johngoodman.io/house-of-hades/',
+        link: 'https://j-goodman.github.io/house-of-hades/',
         caption: "Procedurally generated text adventure game.",
       }),
     ]
@@ -213,7 +213,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'cannonfire.png',
-        link: 'http://www.johngoodman.io/cannonfire/',
+        link: 'https://j-goodman.github.io/cannonfire/',
         caption: "Turn-based strategy game.",
       }),
     ]
@@ -248,7 +248,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'merchant-marine.png',
-        link: 'http://www.johngoodman.io/merchant-marine/',
+        link: 'https://j-goodman.github.io/merchant-marine/',
         caption: "Submission for the 2017 Ludum Dare 3-Day Game Jam",
       }),
     ]
@@ -264,7 +264,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'starbird.png',
-        link: 'http://www.johngoodman.io/starbird/',
+        link: 'https://j-goodman.github.io/starbird/',
         caption: "Mobile shooter game using tilt controls.",
       }),
     ]
@@ -280,7 +280,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'typewriter.png',
-        link: 'http://www.johngoodman.io/typewriter/',
+        link: 'https://j-goodman.github.io/typewriter/',
         caption: "Type up documents that look like sheets from a typewriter and download as a PDF.",
       }),
       new Block ({
@@ -299,7 +299,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'graphoid.png',
-        link: 'http://www.johngoodman.io/graphoid/',
+        link: 'https://j-goodman.github.io/graphoid/',
         caption: "Upload a CSV to generate a dynamic timeline graph.",
       }),
     ]
@@ -315,7 +315,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'cube.png',
-        link: 'http://www.johngoodman.io/3D-cube-demo/',
+        link: 'https://j-goodman.github.io/3D-cube-demo/',
         caption: "Use your keyboard to spin the cube.",
       }),
     ]
@@ -331,7 +331,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'mayanum.png',
-        link: 'http://www.johngoodman.io/mayanum/',
+        link: 'https://j-goodman.github.io/mayanum/',
         caption: "Convert standard numbers to Maya numerals.",
       }),
       new Block ({
@@ -350,7 +350,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'germs.png',
-        link: 'http://www.johngoodman.io/germs2/',
+        link: 'https://j-goodman.github.io/germs2/',
         caption: "A digital petri dish that lets you set up and observe the processes of ecological competition and natural selection.",
       }),
       new Block ({
@@ -369,7 +369,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'shooterdemo.png',
-        link: 'http://www.johngoodman.io/demo/',
+        link: 'https://j-goodman.github.io/demo/',
         caption: "Conceptual demo for a 2-D gameplay third person shooter.",
       }),
     ]
@@ -381,11 +381,11 @@ var contentList = [
     tags: ['games'],
     body: [
       new Block ({
-        text: "After cutting my teeth with Luna 3 I still had a few weeks of unemployment ahead of me so I figured I'd take some time to build another game. Had a lot of fun designing the controls and the combat mechanics, as well as creating the various enemies you fight in the game. Unfortunately never made it past level 2, but still hope to return to this one someday, I'm really happy with how the sprites and backgrounds ended up coming out. <a href='https://github.com/j-goodman/Luna3' target='_blank'>The source code is available</a> on my Github for anyone who's interested, or you can <a href='http://www.johngoodman.io/MoreTunnels/'>play it here</a>."
+        text: "After cutting my teeth with Luna 3 I still had a few weeks of unemployment ahead of me so I figured I'd take some time to build another game. Had a lot of fun designing the controls and the combat mechanics, as well as creating the various enemies you fight in the game. Unfortunately never made it past level 2, but still hope to return to this one someday, I'm really happy with how the sprites and backgrounds ended up coming out. <a href='https://github.com/j-goodman/Luna3' target='_blank'>The source code is available</a> on my Github for anyone who's interested, or you can <a href='https://j-goodman.github.io/MoreTunnels/'>play it here</a>."
       }),
       new Picture ({
         filename: 'moretunnels.png',
-        link: 'http://www.johngoodman.io/MoreTunnels/',
+        link: 'https://j-goodman.github.io/MoreTunnels/',
         caption: "Demo version of a browser based platform game, built from scratch with Javascript and HTML Canvas.",
       }),
     ]
@@ -401,7 +401,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'dice.png',
-        link: 'http://www.johngoodman.io/dice/',
+        link: 'https://j-goodman.github.io/dice/',
         caption: "Simple dice game built with basic HTML and vanilla Javascript. About 160 lines of code.",
       }),
     ]
@@ -417,7 +417,7 @@ var contentList = [
       }),
       new Picture ({
         filename: 'luna3.png',
-        link: 'http://www.johngoodman.io/Luna3/',
+        link: 'https://j-goodman.github.io/Luna3/',
         caption: "Luna 3 is a missile-defense browser game made with HTML Canvas and Javascript. Try the bolo rocket!",
       }),
     ]
@@ -461,7 +461,7 @@ var contentList = [
     body: [
       new Picture ({
         filename: 'headshot.jpg',
-        caption: "Hi, I'm John Goodman, this is my personal site. You see my <a href='http://www.johngoodman.io/art' target='_blank'>art samples here</a>, or just browse around here to see what else I'm working on.",
+        caption: "Hi, I'm John Goodman, this is my personal site. You see my <a href='https://j-goodman.github.io/art' target='_blank'>art samples here</a>, or just browse around here to see what else I'm working on.",
       }),
       new Block ({
         text: "I'm an animator, and illustrator. This site is a place for me to keep my published projects in one place, mostly the things I work on in my free time. I'm also accepting commisioned illustration & animation work: ou can contact me at johncurtisgoodman@gmail.com"
