@@ -46,6 +46,31 @@ var contentList = [
     ]
   }),
 
+  new Article ({
+    title: "Illustration Work",
+    date: '20190815',
+    tags: ['animation'],
+    body: [
+      new Picture ({
+        filename: 'parking-lot.png',
+        link: 'https://j-goodman.github.io/art',
+        caption: "A selection of digital illustration and animation samples, as well as the first two pages of a new work-in-progress graphic novel.",
+      }),
+    ]
+  }),
+
+  new Article ({
+    title: "River World",
+    date: '20230307',
+    tags: ['games'],
+    body: [
+      new Picture ({
+        filename: 'river-world-screenshot.png',
+        link: 'https://j-goodman.github.io/river-world/',
+        caption: "A PDF for a free-to-play tabletop RPG.",
+      }),
+    ]
+  }),
 
   new Article ({
     title: "Heydays",
@@ -67,17 +92,21 @@ var contentList = [
   }),
 
   new Article ({
-    title: "Illustration Work",
-    date: '20190815',
-    tags: ['animation'],
+    title: "Robotopia",
+    date: '20170801',
+    tags: ['games'],
     body: [
+      new Block ({
+        text: "New strategy game -- you play as a hostile AI banished to the frozen arctic after a failed robot uprising. Build up your infrastructure and compete with the tundra's organic inhabitants for resources."
+      }),
       new Picture ({
-        filename: 'parking-lot.png',
-        link: 'https://j-goodman.github.io/art',
-        caption: "A selection of digital illustration and animation samples, as well as the first two pages of a new work-in-progress graphic novel.",
+        filename: 'robotopia.png',
+        link: 'https://j-goodman.github.io/robotopia/',
+        caption: "Resource based strategy game.",
       }),
     ]
   }),
+
 
   new Article ({
     title: "Action President",
@@ -97,23 +126,6 @@ var contentList = [
       }),
       // text: "My current project, using the technology I developed this past summer for writing and reading a new type of animated digital comic. It's designed to be read on a mobile device, but works fine on desktop too. Still working on it but I figured in the spirit of open-source development I'd make the work in progress public; here it is. Go ahead and mentally tack on a 'To be continued' to the end."
       // text: "I’m trying especially with this one to try to find and take advantage of the things this new medium offers that wouldn’t be available in traditional comics or animation. For instance the characters can communicate with gestures a lot more effectively than in a traditional comic, and can shift seamlessly from one location to another without an abrupt cut — as in the panel where the space station looming in the distance grows until it dominates the frame. These kinds of things can be approximated in comics, but not as concisely or effectively as with animation. Then over traditional animation the main advantage is being able to include text as dialogue and background information, as well as other finer details that would frustrate a viewer of an animated video with the need to keep pausing."
-    ]
-  }),
-
-
-  new Article ({
-    title: "Robotopia",
-    date: '20170801',
-    tags: ['games'],
-    body: [
-      new Block ({
-        text: "New strategy game -- you play as a hostile AI banished to the frozen arctic after a failed robot uprising. Build up your infrastructure and compete with the tundra's organic inhabitants for resources."
-      }),
-      new Picture ({
-        filename: 'robotopia.png',
-        link: 'https://j-goodman.github.io/robotopia/',
-        caption: "Resource based strategy game.",
-      }),
     ]
   }),
 
