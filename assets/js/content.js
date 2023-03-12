@@ -216,22 +216,6 @@ var contentList = [
   }),
 
   new Article ({
-    title: "Cannonfire",
-    date: '20170508',
-    tags: ['games'],
-    body: [
-      new Block ({
-        text: "This one's a work in progress based on an idea I had after watching too much Ken Burns -- the goal for it is to be sort of <a href='https://en.wikipedia.org/wiki/The_Oregon_Trail_(video_game)'>Oregon Trail</a> meets <a href='https://en.wikipedia.org/wiki/Risk_(game)'>Risk</a>. You play as the commander of a single territory's troops, and can move freely around a map of western North America seeking out and battling other commanders and expanding your forces."
-      }),
-      new Picture ({
-        filename: 'cannonfire.png',
-        link: 'https://j-goodman.github.io/cannonfire/',
-        caption: "Turn-based strategy game.",
-      }),
-    ]
-  }),
-
-  new Article ({
     title: "Hooli",
     date: '20170501',
     tags: [],
