@@ -36,6 +36,19 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "Road Trip",
+    date: '20231024',
+    tags: ['games'],
+    body: [
+      new Picture ({
+        filename: 'roadtrip.png',
+        link: 'https://j-goodman.github.io/roadtrip/',
+        caption: "A daily game you can play on your phone. You start in a random country, and find your way through neighboring countries to somewhere else in the world. Share your results to test your geography skills against your friends. The destination changes every day.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Animation Demo Reel",
     date: '20200325',
     tags: ['animation'],
