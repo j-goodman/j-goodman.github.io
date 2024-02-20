@@ -36,6 +36,19 @@ var contentList = [
   // }),
 
   new Article ({
+    title: "[working title]",
+    date: '20240220',
+    tags: ['games'],
+    body: [
+      new Picture ({
+        filename: 'blob-farmer.png',
+        link: 'https://j-goodman.github.io/bean-farmer/',
+        caption: "My current project! An exploration game where you roam an interactive world, meeting hand-animated creatures, harvesting and planting seeds, and avoiding danger. I built the engine from the ground up in vanilla Javascript and drew all the assets, so everything you see here is 100% original. Still a work in progress, but give it a try! And get in touch if you have a better title idea.",
+      }),
+    ]
+  }),
+
+  new Article ({
     title: "Road Trip",
     date: '20231024',
     tags: ['games'],
