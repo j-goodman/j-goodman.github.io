@@ -339,14 +339,14 @@ const content = [
     new Article ({
         title: "Heydays",
         tags: ['art & design', 'main'],
+        link: `https://j-goodman.github.io/brouhaha-prospect-park/`,
         body: [
             new Picture ({
                 filename: 'heydays.png',
-                link: false,
                 alt: `A website homepage that reads "The Brouhaha Theater Project Presents".`,
             }),
             new Block ({
-                text: `This one's a website I made for a production by the Brouhaha Theatre Project in Brooklyn. It uses a custom parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but I ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background.`
+                text: `This one's a website I made for a production by the <a href="https://www.brouhahatheatreproject.org/">Brouhaha Theatre Project</a> in Brooklyn. It uses a custom parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but I ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background.`
             })
         ]
     }),
