@@ -260,22 +260,6 @@ const content = [
     }),
 
     new Article ({
-        title: "Maya Numeral Converter",
-        tags: ['tools', 'main'],
-        link: "https://j-goodman.github.io/mayanum/",
-        body: [
-            new Picture ({
-                filename: 'maya-numeral-converter.png',
-                alt: "A screenshot of a tool to convert standard numbers into Maya numerals.",
-            }),
-            new Block ({
-                title: `Maya Numeral Converter`,
-                text: `This is a simple tool I built to convert standard base-ten Arabic numerals into Maya numerals. The Maya numeral system is a base-twenty system that was used by many Mesoamerican societies, and it allowed for advanced mathematics. You can get more information about how Maya numerals work <a href="https://en.wikipedia.org/wiki/Maya_numerals">here</a>.`
-            })
-        ]
-    }),
-
-    new Article ({
         title: "Live From the Elevator Poster",
         tags: ['art & design'],
         body: [
@@ -347,6 +331,22 @@ const content = [
             }),
             new Block ({
                 text: `This one's a website I made for a production by the <a href="https://www.brouhahatheatreproject.org/">Brouhaha Theatre Project</a> in Brooklyn. It uses a custom parallax scroll effect I built with vanilla JS and HTML Canvas, with the goal of creating a nice sense of depth to make the viewer feel immersed in the site. Was originally worried it might be difficult to adapt the format of this one to mobile, but I ended up being especially satisfied with the mobile version in the end, since it gives a less obstructed view of the background.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Maya Numeral Converter",
+        tags: ['tools', 'main'],
+        link: "https://j-goodman.github.io/mayanum/",
+        body: [
+            new Picture ({
+                filename: 'maya-numeral-converter.png',
+                alt: "A screenshot of a tool to convert standard numbers into Maya numerals.",
+            }),
+            new Block ({
+                title: `Maya Numeral Converter`,
+                text: `This is a simple tool I built to convert standard base-ten Arabic numerals into Maya numerals. The Maya numeral system is a base-twenty system that was used by many Mesoamerican societies, and it allowed for advanced mathematics. You can get more information about how Maya numerals work <a href="https://en.wikipedia.org/wiki/Maya_numerals">here</a>.`
             })
         ]
     }),
