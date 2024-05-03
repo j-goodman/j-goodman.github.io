@@ -119,12 +119,13 @@ const setupButtons = () => {
     
     copyButton.addEventListener("click", async () => {
         try {
-            await navigator.clipboard.writeText("johncurtisgoodman@gmail.com");
+            await navigator.clipboard.writeText("johncurtisgoodman@gmail.com")
             const copyAlert = document.getElementById("copy-alert")
             copyAlert.classList.add("reveal")
             setTimeout(() => {
                 copyAlert.classList.remove("reveal")
-            }, 1200)
+                emailContainer.classList.remove("reveal")
+            }, 1600)
         } catch {
             console.log("Failed to copy to clipboard.")
         }
