@@ -252,16 +252,17 @@ a.content-block:hover {
 
 @media screen and (max-width: 1050px) {
     .social-link-container {
-        bottom: 14px;
+        bottom: 4px;
         display: flex;
         flex-direction: column;
         position: fixed;
         left: 2.5vw;
+        transform: scale(0.85);
         width: 90vw;
     }
     
     .email-container, .copy-alert {
-        transform: translate(-5vw, 0);
+        transform: translate(-10vw, 0);
         font-size: 1.1em;
         align-items: center;
         justify-content: center;
