@@ -78,7 +78,7 @@ const content = [
             }),
             new Block ({
                 title: `Exit Interview`,
-                text: `My podcast! We like to think of each episode of Exit Interview as a miniature radio play. The episodes are fully improvised, then edited with sound effects and music to make episodes that are each about 30 minutes long.
+                text: `A podcast that I cohost with friends. Each episode of Exit Interview works like a miniature radio play, the episodes are fully improvised, then edited with sound effects and music to make episodes that are each about 30 minutes long.
                 <br><br>
                 The premise is that when anyone dies, they have to go on a podcast with God and the Devil, who look back on their life and judge whether they should go to Heaven or Hell. If you enjoy character-driven improv comedy you might enjoy the show, check it out wherever you listen to podcasts!`
             })
