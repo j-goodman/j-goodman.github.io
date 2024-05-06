@@ -24,6 +24,12 @@ img {
     z-index: -1;
 }
 
+.preload-image {
+    opacity: 0;
+    max-width: 1px;
+    width: 1px;
+}
+
 .header-bar {
     background: rgba(255, 255, 255, .95);
     border-bottom: 3px solid rgba(0, 0, 0, .15);

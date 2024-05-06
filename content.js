@@ -229,6 +229,22 @@ const content = [
     }),
 
     new Article ({
+        title: "Laser Cutter Blueprint",
+        tags: ['art & design'],
+        link: false,
+        body: [
+            new Picture ({
+                filename: 'catapult-blueprint.png',
+                alt: "A blueprint for a small wooden catapult, next to photos of the finished project.",
+            }),
+            new Block ({
+                title: `Laser Cutter Blueprint`,
+                text: `A small rubber-band powered wooden catapult I designed for an after-school class I was teaching. I made the design using Adobe Illustrator then cut out the plywood pieces using a laser cutter.`
+            })
+        ]
+    }),
+
+    new Article ({
         title: "River World",
         tags: ['games', 'art & design'],
         link: "https://j-goodman.github.io/river-world/",
