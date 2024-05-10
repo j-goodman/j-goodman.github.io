@@ -146,7 +146,7 @@ const content = [
             }),
             new Block ({
                 title: `More Tunnels`,
-                text: `Dolor sit amet, consectetur adipiscing elit. Quisque mollis enim in sapien rhoncus, nec consectetur neque ultrices. Nulla lobortis consequat urna, in congue diam porta vitae.`
+                text: `Demo version of a browser based platform game, built from scratch with Javascript and HTML Canvas.`
             })
         ]
     }),
