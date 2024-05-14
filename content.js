@@ -245,6 +245,22 @@ const content = [
     }),
 
     new Article ({
+        title: "Sky Maze",
+        tags: ['art & design'],
+        link: false,
+        body: [
+            new Picture ({
+                filename: 'sky-maze.png',
+                alt: "A hand-drawn maze with pictures of the sun moon and stars in it.",
+            }),
+            new Block ({
+                title: `Sky Maze`,
+                text: `A maze you can try to solve.`
+            })
+        ]
+    }),
+
+    new Article ({
         title: "River World",
         tags: ['games', 'art & design'],
         link: "https://j-goodman.github.io/river-world/",
