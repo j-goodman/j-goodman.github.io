@@ -521,6 +521,8 @@ const content = [
           new Block ({
             text: `I'm John Goodman, I'm an artist, educator, and software engineer. I do some freelance and commission work, so please don't hesitate to reach out by email if you have any questions or if you're interested in commissioning my work.
             <br><br>
+            You can see my professional resume <a href="assets/john-goodman-resume.pdf">here</a>.
+            <br><br>
             I have an Etsy shop with some digital prints available, which you can visit <a href="https://www.etsy.com/ca/shop/JohnGoodmanArt?ref=shop-header-name&listing_id=1296661328&from_page=listing">here</a>.
             <br><br>
             You can contact me at johncurtisgoodman@gmail.com.`,
