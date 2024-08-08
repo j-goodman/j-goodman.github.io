@@ -184,21 +184,6 @@ const content = [
     }),
 
     new Article ({
-        title: "Whale's Belly",
-        tags: ['art & design'],
-        body: [
-            new Picture ({
-                filename: 'whale-belly.png',
-                alt: "A drawing of a man talking on a payphone in the belly of a blue whale.",
-            }),
-            new Block ({
-                title: `Whale's Belly`,
-                text: ``
-            })
-        ]
-    }),
-
-    new Article ({
         title: "Map of North America",
         tags: ['art & design', 'main'],
         body: [
@@ -214,32 +199,14 @@ const content = [
     }),
 
     new Article ({
-        title: "Cyclops",
+        title: "Exit Interview Promo",
         tags: ['art & design'],
         body: [
-            new Picture ({
-                filename: 'cyclops.gif',
-                alt: "An animated figure shrinks away to nothing leaving only an eyeball.",
+            new Blank ({
+                content: `<video src="assets/road-trip.mp4" controls> </video>`,
             }),
             new Block ({
-                title: `Cyclops`,
-                text: `One of my first hand-drawn animation pieces.`
-            })
-        ]
-    }),
-
-    new Article ({
-        title: "Laser Cutter Blueprint",
-        tags: ['art & design'],
-        link: false,
-        body: [
-            new Picture ({
-                filename: 'catapult-blueprint.png',
-                alt: "A blueprint for a small wooden catapult, next to photos of the finished project.",
-            }),
-            new Block ({
-                title: `Laser Cutter Blueprint`,
-                text: `A small rubber-band powered wooden catapult I designed for an after-school class I was teaching. I made the design using Adobe Illustrator then cut out the plywood pieces using a laser cutter.`
+                text: `A hand-drawn animated promo video for Season 4 of Exit Interview.`
             })
         ]
     }),
@@ -261,17 +228,31 @@ const content = [
     }),
 
     new Article ({
-        title: "River World",
-        tags: ['games', 'art & design'],
-        link: "https://j-goodman.github.io/river-world/",
+        title: "Exit Interview Characters",
+        tags: ['art & design'],
         body: [
             new Picture ({
-                filename: 'river-world.png',
-                alt: "An ink-and-paper comic book image of a man trapped under a log.",
+                filename: 'exit-interview-characters-3.png',
+                alt: `A drawing of various characters under a banner that reads "EXIT INTERVIEW: Improv radio podcast by God and the Devil, Season 3.`,
             }),
             new Block ({
-                title: `River World`,
-                text: `An illustrated rulebook for a free-to-play tabletop RPG.`
+                title: `Exit Interview Characters`,
+                text: `A collection of all my character drawings from Season 3 of Exit Interview (available wherever you listen to podcasts). I do a character drawing to promote each episode of the podcast, this is a collection of all the characters who God and the Devil met in Season 3.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Whale's Belly",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'whale-belly.png',
+                alt: "A drawing of a man talking on a payphone in the belly of a blue whale.",
+            }),
+            new Block ({
+                title: `Whale's Belly`,
+                text: ``
             })
         ]
     }),
@@ -282,7 +263,7 @@ const content = [
         body: [
             new Picture ({
                 filename: 'ianar-map.png',
-                alt: "A poster for a comedy event.",
+                alt: "A hand-drawn fantasy style map of the fictional city of Ianar.",
             }),
             new Block ({
                 title: `City Map`,
@@ -307,31 +288,16 @@ const content = [
     }),
 
     new Article ({
-        title: "Targaryen Family Tree",
+        title: "Wedding Venue Map",
         tags: ['art & design'],
         body: [
             new Picture ({
-                filename: 'targaryen-list.png',
-                alt: "A family tree of House Targaryen from the Song of Ice and Fire books.",
+                filename: 'sloatsburg-map.png',
+                alt: "A map of a wedding venue in Sloatsburg, NY.",
             }),
             new Block ({
-                title: `Targaryen Family Tree`,
-                text: `Going for a kind of medieval looking thing with this one, a family tree for the Targaryen royal family from Game of Thrones.`
-            })
-        ]
-    }),
-
-    new Article ({
-        title: "Thanksgiving Murder Mystery",
-        tags: ['art & design'],
-        body: [
-            new Picture ({
-                filename: 'exit-interview-thanksgiving.png',
-                alt: "A drawing of a Thanksgiving dinner table with a dead body sprawled on top of it, the diners look on concerned.",
-            }),
-            new Block ({
-                title: `Thanksgiving Murder Mystery`,
-                text: `A piece of promo art for a special Thanksgiving episode of Exit Interview.`
+                title: `Wedding Venue Map`,
+                text: `A map of a wedding venue in Sloatsburg, NY`
             })
         ]
     }),
@@ -349,6 +315,113 @@ const content = [
           new Block ({
             text: "",
           }),
+        ]
+    }),
+
+    new Article ({
+        title: "Cyclops",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'cyclops.gif',
+                alt: "An animated figure shrinks away to nothing leaving only an eyeball.",
+            }),
+            new Block ({
+                title: `Cyclops`,
+                text: `One of my first hand-drawn animation pieces.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Targaryen Family Tree",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'targaryen-list.png',
+                alt: "A family tree of House Targaryen from the Song of Ice and Fire books.",
+            }),
+            new Block ({
+                title: `Targaryen Family Tree`,
+                text: `Going for a kind of medieval art look with this one, a family tree for the Targaryen royal family from Game of Thrones.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Map of Hyrule",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'hyrule-map.png',
+                alt: "A map of the land of Hyrule from the Legend of Zelda series.",
+            }),
+            new Block ({
+                title: `Map of Hyrule`,
+                text: `A map of the land of Hyrule from the Legend of Zelda series, designed with a friend as an amalgam of a few different game worlds.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Board Game Symbols",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'board-game-symbols.png',
+                alt: "Various colorful symbols.",
+            }),
+            new Block ({
+                title: `Board Game Symbols`,
+                text: `Some colorful card symbols I've made for an ongoing board game project.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Laser Cutter Blueprint",
+        tags: ['art & design'],
+        link: false,
+        body: [
+            new Picture ({
+                filename: 'catapult-blueprint.png',
+                alt: "A blueprint for a small wooden catapult, next to photos of the finished project.",
+            }),
+            new Block ({
+                title: `Laser Cutter Blueprint`,
+                text: `A small rubber-band powered wooden catapult I designed for an after-school class I was teaching. I made the design using Adobe Illustrator then cut out the plywood pieces using a laser cutter.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "River World",
+        tags: ['games', 'art & design'],
+        link: "https://j-goodman.github.io/river-world/",
+        body: [
+            new Picture ({
+                filename: 'river-world.png',
+                alt: "An ink-and-paper comic book image of a man trapped under a log.",
+            }),
+            new Block ({
+                title: `River World`,
+                text: `An illustrated rulebook for a free-to-play tabletop RPG.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Thanksgiving Murder Mystery",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'exit-interview-thanksgiving.png',
+                alt: "A drawing of a Thanksgiving dinner table with a dead body sprawled on top of it, the diners look on concerned.",
+            }),
+            new Block ({
+                title: `Thanksgiving Murder Mystery`,
+                text: `A piece of promo art for a special Thanksgiving episode of Exit Interview.`
+            })
         ]
     }),
 

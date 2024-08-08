@@ -18,6 +18,10 @@ img {
     object-fit: contain;
 }
 
+video {
+    max-width: 400px;
+}
+
 .background-asset {
     display: none;
     position: fixed;
