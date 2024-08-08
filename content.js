@@ -532,3 +532,10 @@ const content = [
 ]
 
 addContent(content, "main")
+
+const searchParams = new URLSearchParams(window.location.search)
+if (searchParams.get("page") === "art") {
+    const container = document.getElementById("content-container")
+    container.innerHTML = ""
+    addContent(content, "art & design")
+}
