@@ -26,7 +26,7 @@ const content = [
             }),
             new Block ({
                 title: `Map of the Solar System`,
-                text: `A poster of the major and minor planets of the solar system. I wanted to make something here that would give a general sense of where things are without worrying about scale. I always wanted to give a quick easy to remember fact about each of the major planets, which I hope along with the visuals makes this poster more accessible for people of all ages who are interested in outer space.`
+                text: `A poster of the major and minor planets of the solar system. I wanted to make something here that would give a general sense of where things are without worrying about scale. I wanted to give a quick easy to remember fact about each of the major planets, which I hope along with the visuals makes this poster more accessible for people of all ages who are interested in outer space.`
             })
         ]
     }),
@@ -44,6 +44,22 @@ const content = [
           new Block ({
             text: "A daily game you can play on your phone. You start in a random country, and find your way through neighboring countries to somewhere else in the world. Share your results to test your geography skills against your friends. The destination changes every day.",
           }),
+        ]
+    }),
+    
+    new Article ({
+        title: "Gardenworld",
+        tags: ['games', 'main'],
+        link: "https://j-goodman.github.io/bean-farmer/",
+        body: [
+            new Picture ({
+                filename: 'bean-farmer.png',
+                alt: "An image from the game, a blue blob wields an axe in a grid-based environment with some rocks and plants.",
+            }),
+            new Block ({
+                title: `Bean Farmer`,
+                text: `An exploration game where you roam an interactive world, meeting hand-animated creatures, harvesting and planting seeds, and avoiding danger. I built the engine from the ground up in vanilla Javascript and drew all the assets, so everything you see here is 100% original. I see this version as just a prototype, but I'd love to build a more fleshed-out version of it someday.`
+            })
         ]
     }),
 
@@ -99,22 +115,6 @@ const content = [
                 text: `This was the first computer game I made as an adult after learning Javascript. Some of the coding is a little sloppy in retrospect, but I think it still holds up. It's an arcade-style shooter you can play online, inspired by Missile Command.
                 <br><br>
                 Like all my games, it's made from scratch with vanilla Javascript and HTML Canvas.`
-            })
-        ]
-    }),
-
-    new Article ({
-        title: "Prototype 2D Game Engine",
-        tags: ['games', 'main'],
-        link: "https://j-goodman.github.io/bean-farmer/",
-        body: [
-            new Picture ({
-                filename: 'bean-farmer.png',
-                alt: "An image from the game, a blue blob wields an axe in a grid-based environment with some rocks and plants.",
-            }),
-            new Block ({
-                title: `Bean Farmer`,
-                text: `An exploration game where you roam an interactive world, meeting hand-animated creatures, harvesting and planting seeds, and avoiding danger. I built the engine from the ground up in vanilla Javascript and drew all the assets, so everything you see here is 100% original. I see this version as just a prototype, but I'd love to build a more fleshed-out version of it someday.`
             })
         ]
     }),
@@ -184,17 +184,18 @@ const content = [
     }),
 
     new Article ({
-        title: "Map of North America",
-        tags: ['art & design', 'main'],
+        tags: ['art & design'],
+        link: false,
+        title: "Fashion Fish",
         body: [
-            new Picture ({
-                filename: 'north-america.png',
-                alt: "A hand drawn map of North America.",
-            }),
-            new Block ({
-                title: `Map of North America`,
-                text: `A map I made using a brush pen and digital coloring.`
-            })
+          new Picture ({
+            filename: 'fashion-fish.png',
+            link: false,
+            alt: "Two drawings of fish wearing stylish human clothes.",
+          }),
+          new Block ({
+            text: "",
+          }),
         ]
     }),
 
@@ -206,23 +207,22 @@ const content = [
                 content: `<video src="assets/road-trip.mp4" controls> </video>`,
             }),
             new Block ({
-                text: `A hand-drawn animated promo video for Season 4 of Exit Interview.`
+                text: `A hand drawn animated promo video for Season 4 of Exit Interview.`
             })
         ]
     }),
 
     new Article ({
-        title: "Sky Maze",
+        title: "Whale's Belly",
         tags: ['art & design'],
-        link: false,
         body: [
             new Picture ({
-                filename: 'sky-maze.png',
-                alt: "A hand-drawn maze with pictures of the sun moon and stars in it.",
+                filename: 'whale-belly.png',
+                alt: "A drawing of a man talking on a payphone in the belly of a blue whale.",
             }),
             new Block ({
-                title: `Sky Maze`,
-                text: `A maze you can try to solve.`
+                title: `Whale's Belly`,
+                text: ``
             })
         ]
     }),
@@ -243,16 +243,31 @@ const content = [
     }),
 
     new Article ({
-        title: "Whale's Belly",
+        title: "Wedding Venue Map",
         tags: ['art & design'],
         body: [
             new Picture ({
-                filename: 'whale-belly.png',
-                alt: "A drawing of a man talking on a payphone in the belly of a blue whale.",
+                filename: 'sloatsburg-map.png',
+                alt: "A map of a wedding venue in Sloatsburg, NY.",
             }),
             new Block ({
-                title: `Whale's Belly`,
-                text: ``
+                title: `Wedding Venue Map`,
+                text: `A map of a wedding venue in Sloatsburg, NY`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Map of North America",
+        tags: ['art & design', 'main'],
+        body: [
+            new Picture ({
+                filename: 'north-america.png',
+                alt: "A hand drawn map of North America.",
+            }),
+            new Block ({
+                title: `Map of North America`,
+                text: `A map I made using a brush pen and digital coloring.`
             })
         ]
     }),
@@ -288,33 +303,18 @@ const content = [
     }),
 
     new Article ({
-        title: "Wedding Venue Map",
-        tags: ['art & design'],
-        body: [
-            new Picture ({
-                filename: 'sloatsburg-map.png',
-                alt: "A map of a wedding venue in Sloatsburg, NY.",
-            }),
-            new Block ({
-                title: `Wedding Venue Map`,
-                text: `A map of a wedding venue in Sloatsburg, NY`
-            })
-        ]
-    }),
-
-    new Article ({
+        title: "Sky Maze",
         tags: ['art & design'],
         link: false,
-        title: "Fashion Fish",
         body: [
-          new Picture ({
-            filename: 'fashion-fish.png',
-            link: false,
-            alt: "Two drawings of fish wearing stylish human clothes.",
-          }),
-          new Block ({
-            text: "",
-          }),
+            new Picture ({
+                filename: 'sky-maze.png',
+                alt: "A hand-drawn maze with pictures of the sun moon and stars in it.",
+            }),
+            new Block ({
+                title: `Sky Maze`,
+                text: `A maze you can try to solve.`
+            })
         ]
     }),
 
