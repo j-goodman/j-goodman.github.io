@@ -17,21 +17,6 @@ const content = [
     }),
 
     new Article ({
-        title: "Map of the Solar System",
-        tags: ['art & design'],
-        body: [
-            new Picture ({
-                filename: 'solar-system.png',
-                alt: "A map of the solar system.",
-            }),
-            new Block ({
-                title: `Map of the Solar System`,
-                text: `A poster of the major and minor planets of the solar system. I wanted to make something here that would give a general sense of where things are without worrying about scale. I wanted to give a quick easy to remember fact about each of the major planets, which I hope along with the visuals makes this poster more accessible for people of all ages who are interested in outer space.`
-            })
-        ]
-    }),
-
-    new Article ({
         title: "Road Trip",
         tags: ['main', 'games'],
         link: 'https://j-goodman.github.io/roadtrip/',
@@ -238,6 +223,21 @@ const content = [
             new Block ({
                 title: `Exit Interview Characters`,
                 text: `A collection of all my character drawings from Season 3 of Exit Interview (available wherever you listen to podcasts). I do a character drawing to promote each episode of the podcast, this is a collection of all the characters who God and the Devil met in Season 3.`
+            })
+        ]
+    }),
+
+    new Article ({
+        title: "Map of the Solar System",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'solar-system.png',
+                alt: "A map of the solar system.",
+            }),
+            new Block ({
+                title: `Map of the Solar System`,
+                text: `A poster of the major and minor planets of the solar system. I wanted to make something here that would give a general sense of where things are without worrying about scale. I wanted to give a quick easy to remember fact about each of the major planets, which I hope along with the visuals makes this poster more accessible for people of all ages who are interested in outer space.`
             })
         ]
     }),
