@@ -198,6 +198,21 @@ const content = [
     }),
 
     new Article ({
+        title: "Live From the Elevator Poster",
+        tags: ['art & design'],
+        body: [
+            new Picture ({
+                filename: 'live-from-the-elevator.png',
+                alt: "A poster for a comedy event.",
+            }),
+            new Block ({
+                title: `Live From the Elevator Poster`,
+                text: `A poster I made for a comedy event.`
+            })
+        ]
+    }),
+
+    new Article ({
         title: "Whale's Belly",
         tags: ['art & design'],
         body: [
@@ -283,21 +298,6 @@ const content = [
             new Block ({
                 title: `City Map`,
                 text: `A hand-drawn fantasy style map I made of the fictional city of Ianar.`
-            })
-        ]
-    }),
-
-    new Article ({
-        title: "Live From the Elevator Poster",
-        tags: ['art & design'],
-        body: [
-            new Picture ({
-                filename: 'live-from-the-elevator.png',
-                alt: "A poster for a comedy event.",
-            }),
-            new Block ({
-                title: `Live From the Elevator Poster`,
-                text: `A poster for a comedy event.`
             })
         ]
     }),
