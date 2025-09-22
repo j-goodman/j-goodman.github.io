@@ -31,20 +31,20 @@ const content = [
           }),
         ]
     }),
-    
+
     new Article ({
-        title: "Gardenworld",
-        tags: ['games', 'main'],
-        link: "https://j-goodman.github.io/bean-farmer/",
+        tags: ['art & design'],
+        link: false,
+        title: "Sleepy Hollow Map",
         body: [
-            new Picture ({
-                filename: 'bean-farmer.png',
-                alt: "An image from the game, a blue blob wields an axe in a grid-based environment with some rocks and plants.",
-            }),
-            new Block ({
-                title: `Bean Farmer`,
-                text: `An exploration game where you roam an interactive world, meeting hand-animated creatures, harvesting and planting seeds, and avoiding danger. I built the engine from the ground up in vanilla Javascript and drew all the assets, so everything you see here is 100% original. I see this version as just a prototype, but I'd love to build a more fleshed-out version of it someday.`
-            })
+          new Picture ({
+            filename: 'sleepy-hollow-map.png',
+            link: false,
+            alt: "A map of Philipsburg Manor in Sleepy Hollow, New York.",
+          }),
+          new Block ({
+            text: "A map I was commissioned to make for a Halloween event at Philipsburg Manor in Sleepy Hollow, New York. Made with a combination of pen and ink and digital sketching/coloring, and designed to be printed out and displayed on-site.",
+          }),
         ]
     }),
 
@@ -82,6 +82,21 @@ const content = [
                 text: `A podcast that I cohost with friends. Each episode of Exit Interview works like a miniature radio play, the episodes are fully improvised, then edited with sound effects and music to make episodes that are each about 30 minutes long.
                 <br><br>
                 The premise is that when anyone dies, they have to go on a podcast with God and the Devil, who look back on their life and judge whether they should go to Heaven or Hell. If you enjoy character-driven improv comedy you might enjoy the show, check it out wherever you listen to podcasts!`
+            })
+        ]
+    }),
+        new Article ({
+        title: "Gardenworld",
+        tags: ['games', 'main'],
+        link: "https://j-goodman.github.io/bean-farmer/",
+        body: [
+            new Picture ({
+                filename: 'bean-farmer.png',
+                alt: "An image from the game, a blue blob wields an axe in a grid-based environment with some rocks and plants.",
+            }),
+            new Block ({
+                title: `Bean Farmer`,
+                text: `An exploration game where you roam an interactive world, meeting hand-animated creatures, harvesting and planting seeds, and avoiding danger. I built the engine from the ground up in vanilla Javascript and drew all the assets, so everything you see here is 100% original. I see this version as just a prototype, but I'd love to build a more fleshed-out version of it someday.`
             })
         ]
     }),
