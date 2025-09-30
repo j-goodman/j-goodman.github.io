@@ -611,8 +611,6 @@ const content = [
             <br><br>
             You can see my professional resume <a href="assets/john-goodman-resume.pdf">here</a>.
             <br><br>
-            I have an Etsy shop with some digital prints available, which you can visit <a href="https://www.etsy.com/ca/shop/JohnGoodmanArt?ref=shop-header-name&listing_id=1296661328&from_page=listing">here</a>.
-            <br><br>
             You can contact me at johncurtisgoodman@gmail.com.`,
           }),
         ]
