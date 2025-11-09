@@ -91,12 +91,12 @@ const content = [
         link: "https://j-goodman.github.io/bean-farmer/",
         body: [
             new Picture ({
-                filename: 'bean-farmer.png',
+                filename: 'gardenworld.png',
                 alt: "An image from the game, a blue blob wields an axe in a grid-based environment with some rocks and plants.",
             }),
             new Block ({
-                title: `Bean Farmer`,
-                text: `An exploration game where you roam an interactive world, meeting hand-animated creatures, harvesting and planting seeds, and avoiding danger. I built the engine from the ground up in vanilla Javascript and drew all the assets, so everything you see here is 100% original. I see this version as just a prototype, but I'd love to build a more fleshed-out version of it someday.`
+                title: `Gardenworld`,
+                text: `An exploration game where you play as a skeleton reanimated by a necromancer to run errands for him on a danger-filled island.`
             })
         ]
     }),
