@@ -17,6 +17,21 @@ const content = [
     }),
 
     new Article ({
+        title: "Card Hearts",
+        tags: ['games'],
+        link: 'https://j-goodman.github.io/cardhearts',
+        body: [
+            new Picture ({
+                filename: 'card-hearts.png',
+                alt: "A computer game of Hearts.",
+            }),
+            new Block ({
+                text: "A simple Hearts browser game, made with Javascript and HTML5 Canvas.",
+            }),
+        ]
+    }),
+
+    new Article ({
         title: "Road Trip",
         tags: ['main', 'games'],
         link: 'https://j-goodman.github.io/roadtrip/',
@@ -85,7 +100,8 @@ const content = [
             })
         ]
     }),
-        new Article ({
+    
+    new Article ({
         title: "Gardenworld",
         tags: ['games', 'main'],
         link: "https://j-goodman.github.io/bean-farmer/",
@@ -597,7 +613,7 @@ const content = [
     }),
 
     new Article ({
-        tags: ['about me'],
+        tags: ['main'],
         link: false,
         title: "About Me",
         body: [
