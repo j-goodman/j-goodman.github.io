@@ -17,6 +17,21 @@ const content = [
     }),
 
     new Article ({
+        title: "Card Hearts",
+        tags: ['games'],
+        link: 'https://j-goodman.github.io/cardhearts',
+        body: [
+            new Picture ({
+                filename: 'card-hearts.png',
+                alt: "A computer game of Hearts.",
+            }),
+            new Block ({
+                text: "A simple Hearts browser game, made with Javascript and HTML5 Canvas.",
+            }),
+        ]
+    }),
+
+    new Article ({
         title: "Fence",
         tags: ['main', 'games'],
         link: 'https://j-goodman.github.io/fence',
@@ -29,21 +44,6 @@ const content = [
           new Block ({
             text: "A new browser game I've been working on where you play as a shop owner trying to earn a profit fencing stolen goods.",
           }),
-        ]
-    }),
-
-    new Article ({
-        title: "Card Hearts",
-        tags: ['games'],
-        link: 'https://j-goodman.github.io/cardhearts',
-        body: [
-            new Picture ({
-                filename: 'card-hearts.png',
-                alt: "A computer game of Hearts.",
-            }),
-            new Block ({
-                text: "A simple Hearts browser game, made with Javascript and HTML5 Canvas.",
-            }),
         ]
     }),
 
