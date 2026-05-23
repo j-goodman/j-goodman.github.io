@@ -17,6 +17,22 @@ const content = [
     }),
 
     new Article ({
+        title: "Fence",
+        tags: ['main', 'games'],
+        link: 'https://j-goodman.github.io/fence',
+        body: [
+          new Picture ({
+            filename: 'fence.png',
+            link: 'https://j-goodman.github.io/fence',
+            alt: "A screenshot of a browser game, Fence.",
+          }),
+          new Block ({
+            text: "A new browser game I've been working on where you play as a shop owner trying to earn a profit fencing stolen goods.",
+          }),
+        ]
+    }),
+
+    new Article ({
         title: "Card Hearts",
         tags: ['games'],
         link: 'https://j-goodman.github.io/cardhearts',
@@ -28,22 +44,6 @@ const content = [
             new Block ({
                 text: "A simple Hearts browser game, made with Javascript and HTML5 Canvas.",
             }),
-        ]
-    }),
-
-    new Article ({
-        title: "Road Trip",
-        tags: ['main', 'games'],
-        link: 'https://j-goodman.github.io/roadtrip/',
-        body: [
-          new Picture ({
-            filename: 'roadtrip.png',
-            link: 'https://j-goodman.github.io/roadtrip/',
-            alt: "A screenshot of a mobile game, it reads 'Destination: Senegal (Western Africa)', then 'You're in Morocco'.",
-          }),
-          new Block ({
-            text: "A daily game you can play on your phone. You start in a random country, and find your way through neighboring countries to somewhere else in the world. Share your results to test your geography skills against your friends. The destination changes every day.",
-          }),
         ]
     }),
 
@@ -80,6 +80,22 @@ const content = [
             new Block ({
                 text: "You can click here to see some examples of my illustration work. I mostly work with brush pens on paper, then I scan the lineart to color digitally in Photoshop. I love making maps and diagrams, as well as drawings of animals and human characters. I also make traditional 2D animation, and I have fun experimenting with other media, most recently linocut.",
             }),
+        ]
+    }),
+
+    new Article ({
+        title: "Road Trip",
+        tags: ['main', 'games'],
+        link: 'https://j-goodman.github.io/roadtrip/',
+        body: [
+          new Picture ({
+            filename: 'roadtrip.png',
+            link: 'https://j-goodman.github.io/roadtrip/',
+            alt: "A screenshot of a mobile game, it reads 'Destination: Senegal (Western Africa)', then 'You're in Morocco'.",
+          }),
+          new Block ({
+            text: "A daily game you can play on your phone. You start in a random country, and find your way through neighboring countries to somewhere else in the world. Share your results to test your geography skills against your friends. The destination changes every day.",
+          }),
         ]
     }),
 
