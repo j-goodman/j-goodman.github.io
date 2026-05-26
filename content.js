@@ -504,33 +504,20 @@ const content = [
     }),
 
     new Article ({
-        title: "Animation Demo Reel",
-        tags: ['art & design'],
+        title: "Animated Comic System",
+        tags: ['tools', 'art & design'],
+        link: "https://j-goodman.github.io/action-president/",
         body: [
-            new Blank ({
-                content: `<iframe src="https://player.vimeo.com/video/382960970" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>`,
+            new Picture ({
+                filename: 'deeps.png',
+                alt: "Chalk pastel art of a submersible discovering an underwater statue of a head.",
             }),
             new Block ({
-                text: ``
+                title: `Animated Comic System`,
+                text: `This was a concept I was working on for a while for a type of animated comic. The idea is that the animation moves as you scroll down the page, so it's like an animated video in a way, but it's also more like a comic book in the sense that it has text and you can read it at your own pace. Take a look if you're interested.`
             })
         ]
     }),
-
-    // new Article ({
-    //     title: "Animated Comic System",
-    //     tags: ['tools', 'art & design'],
-    //     link: "https://j-goodman.github.io/action-president/",
-    //     body: [
-    //         new Picture ({
-    //             filename: 'deeps.png',
-    //             alt: "Chalk pastel art of a submersible discovering an underwater statue of a head.",
-    //         }),
-    //         new Block ({
-    //             title: `Animated Comic System`,
-    //             text: `This was a concept I was working on for a while for a type of animated comic. The idea is that the animation moves as you scroll down the page, so it's like an animated video in a way, but it's also more like a comic book in the sense that it has text and you can read it at your own pace. Take a look if you're interested.`
-    //         })
-    //     ]
-    // }),
 
     new Article ({
         title: "Arcos",
