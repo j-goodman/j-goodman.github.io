@@ -636,11 +636,18 @@ const content = [
     }),
 ]
 
-addContent(content, "main")
+const getInitialTag = () => {
+    const searchParams = new URLSearchParams(window.location.search)
+    if (searchParams.get("page") === "art") {
+        return "art & design"
+    }
 
-const searchParams = new URLSearchParams(window.location.search)
-if (searchParams.get("page") === "art") {
-    const container = document.getElementById("content-container")
-    container.innerHTML = ""
-    addContent(content, "art & design")
+    const path = window.location.pathname.replace(/\/+$/, "")
+    if (path.endsWith("/art")) {
+        return "art & design"
+    }
+
+    return "main"
 }
+
+addContent(content, getInitialTag())
