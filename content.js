@@ -638,12 +638,12 @@ const content = [
 
 const getInitialTag = () => {
     const searchParams = new URLSearchParams(window.location.search)
-    if (searchParams.get("page") === "art") {
+    if (["art", "illustration"].includes(searchParams.get("page"))) {
         return "art & design"
     }
 
     const path = window.location.pathname.replace(/\/+$/, "")
-    if (path.endsWith("/art")) {
+    if (path.endsWith("/illustration")) {
         return "art & design"
     }
 
