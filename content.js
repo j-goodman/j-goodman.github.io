@@ -17,23 +17,8 @@ const content = [
     }),
 
     new Article ({
-        title: "Card Hearts",
-        tags: ['games'],
-        link: 'https://j-goodman.github.io/cardhearts',
-        body: [
-            new Picture ({
-                filename: 'card-hearts.png',
-                alt: "A computer game of Hearts.",
-            }),
-            new Block ({
-                text: "A simple Hearts browser game, made with Javascript and HTML5 Canvas.",
-            }),
-        ]
-    }),
-
-    new Article ({
         title: "Fence",
-        tags: ['main', 'games'],
+        tags: ['games'],
         link: 'https://j-goodman.github.io/fence',
         body: [
           new Picture ({
@@ -96,6 +81,21 @@ const content = [
           new Block ({
             text: "A daily game you can play on your phone. You start in a random country, and find your way through neighboring countries to somewhere else in the world. Share your results to test your geography skills against your friends. The destination changes every day.",
           }),
+        ]
+    }),
+
+        new Article ({
+        title: "Card Hearts",
+        tags: ['games'],
+        link: 'https://j-goodman.github.io/cardhearts',
+        body: [
+            new Picture ({
+                filename: 'card-hearts.png',
+                alt: "A computer game of Hearts.",
+            }),
+            new Block ({
+                text: "A simple Hearts browser game, made with Javascript and HTML5 Canvas.",
+            }),
         ]
     }),
 
