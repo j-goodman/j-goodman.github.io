@@ -248,6 +248,14 @@ h3 {
   font-size: 0.95rem;
 }
 
+.hero-copy .eyebrow {
+  margin-bottom: 0.35rem;
+}
+
+.hero-copy .status {
+  margin-top: 0;
+}
+
 .section {
   padding: 3.5rem 0;
 }
