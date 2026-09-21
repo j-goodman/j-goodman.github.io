@@ -1,0 +1,5 @@
+# Local project files
+.DS_Store
+
+# Local working files
+*.txt

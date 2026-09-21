@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="John Goodman is an educator, software developer, illustrator, and animator who builds useful work for real people."
+    />
+    <title>John Goodman</title>
+    <link rel="icon" type="image/png" href="assets/jg.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" data-view-target="home">John Goodman</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#" data-view-target="work">Work</a>
+          <a href="#about" data-view-target="about">About</a>
+          <a href="#contact" data-view-target="contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="view-panel" id="view-home" data-view="home">
+        <section class="hero">
+          <div class="container hero-inner">
+            <div class="hero-copy">
+              <p class="eyebrow">Education • software • illustration &amp; animation</p>
+              <h1>John Goodman</h1>
+              <p class="lede">Hi! I'm John Goodman, I'm an educator, illustrator, and software engineer. You can see some of my work here. My goals are to teach, build, and make things people can use.</p>
+              <div class="hero-actions">
+                <button class="button primary" type="button" data-view-target="work">Recent Projects</button>
+                <a class="button secondary" href="#about" data-view-target="about">About</a>
+              </div>
+              <p class="status">Montréal, Québec</p>
+            </div>
+
+            <div class="hero-visual" aria-label="Portrait photography">
+              <div class="photo-frame primary-photo">
+                <img src="assets/main-profile-picture.jpg" alt="Portrait of John Goodman" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section muted home-panel">
+          <div class="container">
+            <div class="section-heading narrow">
+              <p class="eyebrow">Practice</p>
+              <h2>Teaching, software, and visual storytelling.</h2>
+            </div>
+
+            <div class="home-grid">
+              <article class="feature-card accent-1">
+                <div class="card-tag">Teaching</div>
+                <h3>Adult learning</h3>
+                <p>Classes that make technical ideas clear and useful.</p>
+              </article>
+              <article class="feature-card accent-2">
+                <div class="card-tag">Software</div>
+                <h3>Interactive work</h3>
+                <p>Web apps, interfaces, and prototypes built for real use.</p>
+              </article>
+              <article class="feature-card accent-3">
+                <div class="card-tag">Art</div>
+                <h3>Animation &amp; illustration</h3>
+                <p>Visual work that mixes clarity, character, and storytelling.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about">
+          <div class="container about-layout">
+            <div class="about-photo-wrap">
+              <div class="photo-frame secondary-photo">
+                <img src="assets/second-picture.jpg" alt="Casual portrait of John Goodman" />
+              </div>
+            </div>
+
+            <div>
+              <p class="eyebrow">About</p>
+              <h3>
+                I've worked in education, web development,
+                learning design, and visual work for public-facing projects. My focus throughout is on communication and design.
+              </h3>
+            </div>
+          </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+          <div class="container contact-box">
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2>Let’s build something useful</h2>
+            </div>
+            <div class="contact-links">
+              <a href="mailto:johncurtisgoodman@gmail.com">johncurtisgoodman@gmail.com</a>
+              <a href="https://www.linkedin.com/in/jbgoodman/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/j-goodman" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="assets/john-goodman-cv.pdf" target="_blank" rel="noreferrer">CV</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section home-visual-section">
+          <div class="container">
+            <div class="section-heading narrow">
+              <p class="eyebrow">Illustration</p>
+              <h2>Animation and visual work.</h2>
+            </div>
+
+            <div class="illustration-grid">
+              <article class="project-card illustration-card">
+                <div class="project-copy">
+                  <p class="project-kicker">Animation</p>
+                  <p>
+                    My process for my animation work combines hand-drawn frame by frame animation with digital finishing and coloring.
+                    I try to emphasize character and clear visual storytelling. This demo reel shows some of my recent work.
+                  </p>
+                </div>
+                <div class="video-wrap">
+                  <video controls preload="metadata" poster="assets/nofa-bear.png">
+                    <source src="assets/animation-reel.mp4" type="video/mp4" />
+                  </video>
+                </div>
+              </article>
+
+              <article class="project-card illustration-card">
+                <div class="project-copy">
+                  <p class="project-kicker">Some Visual Work</p>
+                  <p>
+                    A small collection of notes, diagrams, and image-based work. Click any piece to open the full image in a new tab.
+                  </p>
+                </div>
+                <div class="art-grid art-grid-collapsible is-collapsed">
+                  <a href="assets/finish-line.png" target="_blank" rel="noreferrer"><img src="assets/finish-line.png" alt="Finish line illustration" /></a>
+                  <a href="assets/sunshine.gif" target="_blank" rel="noreferrer"><img src="assets/sunshine.gif" alt="Animated sunshine illustration" /></a>
+                  <a href="assets/madrid-eight.png" target="_blank" rel="noreferrer"><img src="assets/madrid-eight.png" alt="Madrid eight illustration" /></a>
+                  <a class="art-item-hidden" href="assets/north-america.png" target="_blank" rel="noreferrer"><img src="assets/north-america.png" alt="Map of North America illustration" /></a>
+                  <a class="art-item-hidden" href="assets/road-trip.mp4" target="_blank" rel="noreferrer"><video src="assets/road-trip.mp4" muted playsinline loop></video></a>
+                  <a class="art-item-hidden" href="assets/ianar-map.png" target="_blank" rel="noreferrer"><img src="assets/ianar-map.png" alt="Ianar map illustration" /></a>
+                  <a class="art-item-hidden" href="assets/fashion-fish.png" target="_blank" rel="noreferrer"><img src="assets/fashion-fish.png" alt="Fashion fish illustration" /></a>
+                  <a class="art-item-hidden" href="assets/live-from-the-elevator.png" target="_blank" rel="noreferrer"><img src="assets/live-from-the-elevator.png" alt="Live from the elevator illustration" /></a>
+                  <a class="art-item-hidden" href="assets/exit-interview-characters-3.png" target="_blank" rel="noreferrer"><img src="assets/exit-interview-characters-3.png" alt="Exit interview characters illustration" /></a>
+                  <a class="art-item-hidden" href="assets/sky-maze.png" target="_blank" rel="noreferrer"><img src="assets/sky-maze.png" alt="Sky maze illustration" /></a>
+                  <a class="art-item-hidden" href="assets/cyclops.gif" target="_blank" rel="noreferrer"><img src="assets/cyclops.gif" alt="Cyclops animated illustration" /></a>
+                  <a class="art-item-hidden" href="assets/exit-interview-thanksgiving.png" target="_blank" rel="noreferrer"><img src="assets/exit-interview-thanksgiving.png" alt="Exit interview Thanksgiving illustration" /></a>
+                  <a class="art-item-hidden" href="assets/targaryen-list.png" target="_blank" rel="noreferrer"><img src="assets/targaryen-list.png" alt="Targaryen list illustration" /></a>
+                  <a class="art-item-hidden" href="assets/board-game-symbols.png" target="_blank" rel="noreferrer"><img src="assets/board-game-symbols.png" alt="Board game symbols illustration" /></a>
+                  <a class="art-item-hidden" href="assets/whale-belly.png" target="_blank" rel="noreferrer"><img src="assets/whale-belly.png" alt="Whale belly illustration" /></a>
+                </div>
+                <button class="visual-work-toggle" type="button" aria-expanded="false">View more</button>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="selected-work-home">
+          <div class="container">
+            <div class="section-heading">
+              <p class="eyebrow">Selected work</p>
+              <h2>Recent projects</h2>
+            </div>
+
+            <div class="blog-posts">
+              <article class="project-card" data-project="organic-farming" id="organic-farming-home"></article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
+                    <p class="project-kicker">Software Development Bootcamp</p>
+                    <p>
+                      I work with <a href="https://circuitstream.com" target="_blank" rel="noreferrer">Circuit Stream</a>
+                      to teach a Software Development Bootcamp course for adult learners. I teach how to
+                      understand code, build web apps, and work through real projects with modern coding tools.
+                      Right now we're working on deploying full-stack sites with React and Node.
+                    </p>
+                  </div>
+                  <div class="project-media">
+                    <img src="assets/tech-logos.png" alt="Logos for NodeJS, PostgreSQL and React" class="single-media-image" />
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
+                    <p class="project-kicker">Sleepy Hollow Map</p>
+                    <p>
+                      A map I was commissioned to make for a Halloween event at Philipsburg Manor in Sleepy Hollow, New York.
+                      Made with a combination of pen and ink and digital sketching/coloring, and designed to be printed out and displayed on-site.
+                    </p>
+                  </div>
+                  <div class="project-media media-duo">
+                    <a href="assets/sleepy-hollow-map.png" target="_blank" rel="noreferrer" aria-label="Open full-size Sleepy Hollow map">
+                      <img src="assets/sleepy-hollow-map.png" alt="Illustrated map for Philipsburg Manor" />
+                    </a>
+                    <a href="assets/map-on-site.jpg" target="_blank" rel="noreferrer" aria-label="Open full-size map display photo">
+                      <img src="assets/map-on-site.jpg" alt="Map displayed on-site" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
+                    <p class="project-kicker">Fence</p>
+                    <p>
+                      A small-scale browser game I've been working on where you play as a shop owner trying to earn a
+                      profit fencing stolen goods.
+                    </p>
+                    <div class="mini-links">
+                      <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer">Play Fence</a>
+                    </div>
+                  </div>
+                  <div class="project-media">
+                    <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer" class="game-card-link">
+                      <img src="assets/fence.png" alt="Screenshot of the game Fence" class="fence-image" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
+                    <p class="project-kicker">Illustration Work</p>
+                    <p>
+                      A mix of illustration, motion, and visual communication for public-facing work and events.
+                    </p>
+                    <div class="mini-links">
+                      <button class="text-button" type="button" data-view-target="illustration">View illustration work</button>
+                    </div>
+                  </div>
+                  <div class="project-media illustration-preview">
+                    <a href="assets/fashion-fish.png" target="_blank" rel="noreferrer" aria-label="Open full-size Fashion Fish illustration">
+                      <img src="assets/fashion-fish.png" alt="Fashion fish illustration" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
+                    <p class="project-kicker">Games</p>
+                    <p>
+                      Browser games, board games, and interactive experiments built around play and storytelling.
+                    </p>
+                    <div class="mini-links">
+                      <button class="text-button" type="button" data-view-target="games">View games</button>
+                    </div>
+                  </div>
+                  <div class="project-media">
+                    <a href="https://j-goodman.github.io/cardhearts" target="_blank" rel="noreferrer" class="game-card-link">
+                      <img src="assets/card-hearts.png" alt="Card Hearts game thumbnail" class="fence-image" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="view-panel" id="view-work" data-view="work" hidden>
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Recent projects</h2>
+          </div>
+
+          <div class="blog-posts">
+            <article class="project-card" data-project="organic-farming" id="organic-farming-work"></article>
+
+            <article class="project-card">
+              <div class="project-grid">
+                <div class="project-copy">
+                  <p class="project-kicker">Software Development Bootcamp</p>
+                  <p>
+                    I work with <a href="https://circuitstream.com" target="_blank" rel="noreferrer">Circuit Stream</a>
+                    to teach a Software Development Bootcamp course for adult learners. I teach how to
+                    understand code, build web apps, and work through real projects with modern coding tools.
+                    Right now we're working on deploying full-stack sites with React and Node.
+                  </p>
+                </div>
+                <div class="project-media">
+                  <img src="assets/tech-logos.png" alt="Logos for NodeJS, PostgreSQL and React" class="single-media-image" />
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-grid">
+                <div class="project-copy">
+                  <p class="project-kicker">Sleepy Hollow Map</p>
+                  <p>
+                    A map I was commissioned to make for a Halloween event at Philipsburg Manor in Sleepy Hollow, New York.
+                    Made with a combination of pen and ink and digital sketching/coloring, and designed to be printed out and displayed on-site.
+                  </p>
+                </div>
+                <div class="project-media media-duo">
+                  <a href="assets/sleepy-hollow-map.png" target="_blank" rel="noreferrer" aria-label="Open full-size Sleepy Hollow map">
+                    <img src="assets/sleepy-hollow-map.png" alt="Illustrated map for Philipsburg Manor" />
+                  </a>
+                  <a href="assets/map-on-site.jpg" target="_blank" rel="noreferrer" aria-label="Open full-size map display photo">
+                    <img src="assets/map-on-site.jpg" alt="Map displayed on-site" />
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-grid">
+                <div class="project-copy">
+                  <p class="project-kicker">Fence</p>
+                  <p>
+                    A small-scale browser game I've been working on where you play as a shop owner trying to earn a
+                    profit fencing stolen goods.
+                  </p>
+                  <div class="mini-links">
+                    <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer">Play Fence</a>
+                  </div>
+                </div>
+                <div class="project-media">
+                  <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer" class="game-card-link">
+                    <img src="assets/fence.png" alt="Screenshot of the game Fence" class="fence-image" />
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-grid">
+                <div class="project-copy">
+                  <p class="project-kicker">Illustration Work</p>
+                  <p>
+                    A mix of illustration, motion, and visual communication for public-facing work and events.
+                  </p>
+                  <div class="mini-links">
+                    <button class="text-button" type="button" data-view-target="illustration">View illustration work</button>
+                  </div>
+                </div>
+                <div class="project-media illustration-preview">
+                  <a href="#" data-view-target="illustration" aria-label="Open illustration work">
+                    <img src="assets/fashion-fish.png" alt="Fashion fish illustration" />
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-grid">
+                <div class="project-copy">
+                  <p class="project-kicker">Games</p>
+                  <p>
+                    Browser games, board games, and interactive experiments built around play and storytelling.
+                  </p>
+                  <div class="mini-links">
+                    <button class="text-button" type="button" data-view-target="games">View games</button>
+                  </div>
+                </div>
+                <div class="project-media">
+                  <a href="#" data-view-target="games" class="game-card-link" aria-label="Open games section">
+                    <img src="assets/card-hearts.png" alt="Card Hearts game thumbnail" class="fence-image" />
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="view-panel" id="view-illustration" data-view="illustration" hidden>
+        <div class="container">
+          <div class="section-heading narrow">
+            <p class="eyebrow">Illustration</p>
+            <h2>Animation and visual work.</h2>
+          </div>
+
+          <div class="feature-spotlight">
+            <img src="assets/sunshine.gif" alt="Animated sunshine illustration" />
+          </div>
+
+          <div class="illustration-grid">
+            <article class="project-card illustration-card">
+              <div class="project-copy">
+                <p class="project-kicker">Animation</p>
+                <p>
+                  My process for my animation work combines hand-drawn frame by frame animation with digital finishing and coloring.
+                  I try to emphasize character and clear visual storytelling. This demo reel shows some of my recent work.
+                </p>
+              </div>
+              <div class="video-wrap">
+                <video controls preload="metadata" poster="assets/nofa-bear.png">
+                  <source src="assets/animation-reel.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </article>
+
+            <article class="project-card illustration-card">
+              <div class="project-copy">
+                <p class="project-kicker">Some Visual Work</p>
+                <p>
+                  A small collection of notes, diagrams, and image-based work. Click any piece to open the full image in a new tab.
+                </p>
+              </div>
+              <div class="art-grid art-grid-collapsible is-collapsed">
+                <a href="assets/finish-line.png" target="_blank" rel="noreferrer"><img src="assets/finish-line.png" alt="Finish line illustration" /></a>
+                <a href="assets/sunshine.gif" target="_blank" rel="noreferrer"><img src="assets/sunshine.gif" alt="Animated sunshine illustration" /></a>
+                <a href="assets/madrid-eight.png" target="_blank" rel="noreferrer"><img src="assets/madrid-eight.png" alt="Madrid eight illustration" /></a>
+                <a class="art-item-hidden" href="assets/north-america.png" target="_blank" rel="noreferrer"><img src="assets/north-america.png" alt="Map of North America illustration" /></a>
+                <a class="art-item-hidden" href="assets/ianar-map.png" target="_blank" rel="noreferrer"><img src="assets/ianar-map.png" alt="Ianar map illustration" /></a>
+                <a class="art-item-hidden" href="assets/road-trip.mp4" target="_blank" rel="noreferrer"><video src="assets/road-trip.mp4" muted playsinline loop></video></a>
+                <a class="art-item-hidden" href="assets/fashion-fish.png" target="_blank" rel="noreferrer"><img src="assets/fashion-fish.png" alt="Fashion fish illustration" /></a>
+                <a class="art-item-hidden" href="assets/live-from-the-elevator.png" target="_blank" rel="noreferrer"><img src="assets/live-from-the-elevator.png" alt="Live from the elevator illustration" /></a>
+                <a class="art-item-hidden" href="assets/exit-interview-characters-3.png" target="_blank" rel="noreferrer"><img src="assets/exit-interview-characters-3.png" alt="Exit interview characters illustration" /></a>
+                <a class="art-item-hidden" href="assets/sky-maze.png" target="_blank" rel="noreferrer"><img src="assets/sky-maze.png" alt="Sky maze illustration" /></a>
+                <a class="art-item-hidden" href="assets/cyclops.gif" target="_blank" rel="noreferrer"><img src="assets/cyclops.gif" alt="Cyclops animated illustration" /></a>
+                <a class="art-item-hidden" href="assets/exit-interview-thanksgiving.png" target="_blank" rel="noreferrer"><img src="assets/exit-interview-thanksgiving.png" alt="Exit interview Thanksgiving illustration" /></a>
+                <a class="art-item-hidden" href="assets/targaryen-list.png" target="_blank" rel="noreferrer"><img src="assets/targaryen-list.png" alt="Targaryen list illustration" /></a>
+                <a class="art-item-hidden" href="assets/board-game-symbols.png" target="_blank" rel="noreferrer"><img src="assets/board-game-symbols.png" alt="Board game symbols illustration" /></a>
+                <a class="art-item-hidden" href="assets/whale-belly.png" target="_blank" rel="noreferrer"><img src="assets/whale-belly.png" alt="Whale belly illustration" /></a>
+              </div>
+              <button class="visual-work-toggle" type="button" aria-expanded="false">View more</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="view-panel" id="view-games" data-view="games" hidden>
+        <div class="container narrow-wrap">
+          <h2>Games & experiments.</h2>
+          <p class="games-intro">
+            Making games is what originally made me want to learn to write code. I've always loved inventing board games and card games, and using games as a form of storytelling. Here's an incomplete list of some of the interactive games I've made over the years that you can try.
+          </p>
+          <ul class="games-list">
+            <li><a class="game-thumb" href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer"><img src="assets/fence.png" alt="Fence game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer">Fence</a><p>A browser game where you run a shop and profit from stolen goods.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/roadtrip/" target="_blank" rel="noreferrer"><img src="assets/roadtrip.png" alt="Road Trip game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/roadtrip/" target="_blank" rel="noreferrer">Road Trip</a><p>A daily geography game where you move between countries to reach a new destination.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/cardhearts" target="_blank" rel="noreferrer"><img src="assets/card-hearts.png" alt="Card Hearts game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/cardhearts" target="_blank" rel="noreferrer">Card Hearts</a><p>A simple browser game built with JavaScript and HTML5 Canvas.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/bean-farmer/" target="_blank" rel="noreferrer"><img src="assets/gardenworld.png" alt="Gardenworld game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/bean-farmer/" target="_blank" rel="noreferrer">Gardenworld</a><p>An exploration game set on a dangerous island.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/Luna3/" target="_blank" rel="noreferrer"><img src="assets/luna3.png" alt="Luna 3 game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/Luna3/" target="_blank" rel="noreferrer">Luna 3</a><p>An arcade-style shooter inspired by Missile Command.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/river-world/" target="_blank" rel="noreferrer"><img src="assets/river-world.png" alt="River World game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/river-world/" target="_blank" rel="noreferrer">River World</a><p>An illustrated tabletop RPG rulebook.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/robotopia/" target="_blank" rel="noreferrer"><img src="assets/robotopia.png" alt="Robotopia game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/robotopia/" target="_blank" rel="noreferrer">Robotopia</a><p>A 2D tactics game about rebuilding a robot society.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/arcos/" target="_blank" rel="noreferrer"><img src="assets/arcos.png" alt="Arcos game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/arcos/" target="_blank" rel="noreferrer">Arcos</a><p>A card game interface and opponent AI built from scratch.</p></div></li>
+            <li><a class="game-thumb" href="https://j-goodman.github.io/germs2" target="_blank" rel="noreferrer"><img src="assets/germs.png" alt="Germs game thumbnail" /></a><div><a class="game-title" href="https://j-goodman.github.io/germs2" target="_blank" rel="noreferrer">Germs</a><p>A digital petri dish simulator based on simple cellular rules.</p></div></li>
+          </ul>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> John Goodman</p>
+        <p>Educator · Software developer · Illustrator &amp; animator</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
