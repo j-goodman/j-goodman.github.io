@@ -22,7 +22,7 @@
       <div class="container header-inner">
         <a class="brand" href="#top" data-view-target="home">John Goodman</a>
         <nav class="main-nav" aria-label="Main navigation">
-          <a href="#" data-view-target="work">Work</a>
+          <a href="#selected-work-home" data-view-target="selected-work-home">Work</a>
           <a href="#about" data-view-target="about">About</a>
           <a href="#contact" data-view-target="contact">Contact</a>
         </nav>
@@ -39,7 +39,7 @@
               <h1>John Goodman</h1>
               <p class="lede">Hi! I'm John Goodman, I'm an educator, illustrator, and software engineer. You can see some of my work here. My goals are to teach, build, and make things people can use.</p>
               <div class="hero-actions">
-                <button class="button primary" type="button" data-view-target="work">Recent Projects</button>
+                <button class="button primary" type="button" data-view-target="selected-work-home">Recent Projects</button>
                 <a class="button secondary" href="#about" data-view-target="about">About</a>
               </div>
             </div>
@@ -215,6 +215,25 @@
               <article class="project-card">
                 <div class="project-grid">
                   <div class="project-copy">
+                    <p class="project-kicker">Road Trip</p>
+                    <p>
+                      A mobile-friendly daily geography game where you move between countries to reach a new destination.
+                    </p>
+                    <div class="mini-links">
+                      <a href="https://j-goodman.github.io/roadtrip/" target="_blank" rel="noreferrer">Play Road Trip</a>
+                    </div>
+                  </div>
+                  <div class="project-media">
+                    <a href="https://j-goodman.github.io/roadtrip/" target="_blank" rel="noreferrer" class="game-card-link">
+                      <img src="assets/roadtrip.png" alt="Screenshot of the Road Trip game" class="fence-image" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
                     <p class="project-kicker">Fence</p>
                     <p>
                       A small-scale browser game I've been working on where you play as a shop owner trying to earn a
@@ -227,6 +246,25 @@
                   <div class="project-media">
                     <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer" class="game-card-link">
                       <img src="assets/fence.png" alt="Screenshot of the game Fence" class="fence-image" />
+                    </a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="project-card">
+                <div class="project-grid">
+                  <div class="project-copy">
+                    <p class="project-kicker">Games</p>
+                    <p>
+                      Browser games, board games, and interactive experiments built around play and storytelling.
+                    </p>
+                    <div class="mini-links">
+                      <button class="text-button" type="button" data-view-target="games">View games</button>
+                    </div>
+                  </div>
+                  <div class="project-media">
+                    <a href="#games" data-view-target="games" class="game-card-link">
+                      <img src="assets/card-hearts.png" alt="Card Hearts game thumbnail" class="fence-image" />
                     </a>
                   </div>
                 </div>
@@ -250,136 +288,9 @@
                   </div>
                 </div>
               </article>
-
-              <article class="project-card">
-                <div class="project-grid">
-                  <div class="project-copy">
-                    <p class="project-kicker">Games</p>
-                    <p>
-                      Browser games, board games, and interactive experiments built around play and storytelling.
-                    </p>
-                    <div class="mini-links">
-                      <button class="text-button" type="button" data-view-target="games">View games</button>
-                    </div>
-                  </div>
-                  <div class="project-media">
-                    <a href="https://j-goodman.github.io/cardhearts" target="_blank" rel="noreferrer" class="game-card-link">
-                      <img src="assets/card-hearts.png" alt="Card Hearts game thumbnail" class="fence-image" />
-                    </a>
-                  </div>
-                </div>
-              </article>
             </div>
           </div>
         </section>
-      </section>
-
-      <section class="view-panel" id="view-work" data-view="work" hidden>
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Selected work</p>
-            <h2>Recent projects</h2>
-          </div>
-
-          <div class="blog-posts">
-            <article class="project-card">
-              <div class="project-grid">
-                <div class="project-copy">
-                  <p class="project-kicker">Software Development Bootcamp</p>
-                  <p>
-                    I work with <a href="https://circuitstream.com" target="_blank" rel="noreferrer">Circuit Stream</a>
-                    to teach a Software Development Bootcamp course for adult learners. I teach how to
-                    understand code, build web apps, and work through real projects with modern coding tools.
-                    Right now we're working on deploying full-stack sites with React and Node.
-                  </p>
-                </div>
-                <div class="project-media">
-                  <img src="assets/tech-logos.png" alt="Logos for NodeJS, PostgreSQL and React" class="single-media-image" />
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card" data-project="organic-farming" id="organic-farming-work"></article>
-
-            <article class="project-card">
-              <div class="project-grid">
-                <div class="project-copy">
-                  <p class="project-kicker">Sleepy Hollow Map</p>
-                  <p>
-                    A map I was commissioned to make for a Halloween event at Philipsburg Manor in Sleepy Hollow, New York.
-                    Made with a combination of pen and ink and digital sketching/coloring, and designed to be printed out and displayed on-site.
-                  </p>
-                </div>
-                <div class="project-media media-duo">
-                  <a href="assets/sleepy-hollow-map.png" target="_blank" rel="noreferrer" aria-label="Open full-size Sleepy Hollow map">
-                    <img src="assets/sleepy-hollow-map.png" alt="Illustrated map for Philipsburg Manor" />
-                  </a>
-                  <a href="assets/map-on-site.jpg" target="_blank" rel="noreferrer" aria-label="Open full-size map display photo">
-                    <img src="assets/map-on-site.jpg" alt="Map displayed on-site" />
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-grid">
-                <div class="project-copy">
-                  <p class="project-kicker">Fence</p>
-                  <p>
-                    A small-scale browser game I've been working on where you play as a shop owner trying to earn a
-                    profit fencing stolen goods.
-                  </p>
-                  <div class="mini-links">
-                    <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer">Play Fence</a>
-                  </div>
-                </div>
-                <div class="project-media">
-                  <a href="https://j-goodman.github.io/fence/" target="_blank" rel="noreferrer" class="game-card-link">
-                    <img src="assets/fence.png" alt="Screenshot of the game Fence" class="fence-image" />
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-grid">
-                <div class="project-copy">
-                  <p class="project-kicker">Illustration Work</p>
-                  <p>
-                    A mix of illustration, motion, and visual communication for public-facing work and events.
-                  </p>
-                  <div class="mini-links">
-                    <button class="text-button" type="button" data-view-target="illustration">View illustration work</button>
-                  </div>
-                </div>
-                <div class="project-media illustration-preview">
-                  <a href="#" data-view-target="illustration" aria-label="Open illustration work">
-                    <img src="assets/fashion-fish.png" alt="Fashion fish illustration" />
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-grid">
-                <div class="project-copy">
-                  <p class="project-kicker">Games</p>
-                  <p>
-                    Browser games, board games, and interactive experiments built around play and storytelling.
-                  </p>
-                  <div class="mini-links">
-                    <button class="text-button" type="button" data-view-target="games">View games</button>
-                  </div>
-                </div>
-                <div class="project-media">
-                  <a href="#" data-view-target="games" class="game-card-link" aria-label="Open games section">
-                    <img src="assets/card-hearts.png" alt="Card Hearts game thumbnail" class="fence-image" />
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
       </section>
 
       <section class="view-panel" id="view-illustration" data-view="illustration" hidden>

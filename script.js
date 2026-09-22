@@ -7,7 +7,7 @@ const organicProjectMarkup = `
         non-profit Organic Farming campaign in Vermont. I used a combination of pen-and-paper
         animation with digital work in Photoshop and After Effects.
       </p>
-      <p>You can watch one of the videos here.</p>
+      <p>You can watch one of the videos <a href="assets/walker-farm.mp4" target="_blank" rel="noreferrer">here</a>.</p>
     </div>
     <div class="project-media media-triple">
       <a class="media-card" href="assets/nofa-credits.png" target="_blank" rel="noreferrer" aria-label="Open full-size credits image">
@@ -19,11 +19,6 @@ const organicProjectMarkup = `
       <a class="media-card" href="assets/nofa-winter.png" target="_blank" rel="noreferrer" aria-label="Open full-size winter illustration">
         <img src="assets/nofa-winter.png" alt="Seasonal illustration from the Organic Farming campaign" />
       </a>
-    </div>
-    <div class="project-video-wrap">
-      <video controls preload="metadata" poster="assets/pollinators.png">
-        <source src="assets/leaping-bear.mp4" type="video/mp4" />
-      </video>
     </div>
   </div>
 `
@@ -65,10 +60,13 @@ viewTriggers.forEach((trigger) => {
       return
     }
 
-    if (target === 'work') {
+    if (target === 'selected-work-home') {
       event.preventDefault()
-      setView(target)
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+      setView('home')
+      const element = document.getElementById(target)
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
       return
     }
 
