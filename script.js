@@ -89,6 +89,15 @@ viewTriggers.forEach((trigger) => {
   })
 })
 
+const initialView = window.location.hash.slice(1)
+setView(viewPanels.some((panel) => panel.dataset.view === initialView) ? initialView : 'home')
+
+if (initialView === 'illustration') {
+  document.querySelectorAll('#view-illustration .art-grid-collapsible').forEach((grid) => {
+    grid.classList.remove('is-collapsed')
+  })
+}
+
 document.querySelectorAll('.visual-work-toggle').forEach((button) => {
   const artGrid = button.closest('.illustration-card')?.querySelector('.art-grid')
 
@@ -109,5 +118,3 @@ document.querySelectorAll('.visual-work-toggle').forEach((button) => {
 
   updateToggle()
 })
-
-setView('home')
